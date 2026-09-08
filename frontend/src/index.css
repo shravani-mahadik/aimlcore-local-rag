@@ -1,0 +1,51 @@
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+}
+
+/* =========================================
+   DOCUMENT DELETE BUTTON
+========================================= */
+
+.document-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.document-info {
+  flex: 1;
+  min-width: 0;
+}
+
+.delete-button {
+  width: 34px;
+  height: 34px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border: none;
+  border-radius: 8px;
+
+  background: transparent;
+  color: #9aa3b2;
+
+  cursor: pointer;
+
+  transition:
+    background 0.2s ease,
+    color 0.2s ease;
+}
+
+.delete-button:hover {
+  background: #fee2e2;
+  color: #dc2626;
+}
+
+.delete-button:active {
+  transform: scale(0.95);
+}

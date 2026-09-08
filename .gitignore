@@ -1,0 +1,44 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+venv/
+.venv/
+
+# Node
+node_modules/
+frontend/node_modules/
+
+# Vite
+frontend/dist/
+dist/
+
+# Environment variables
+.env
+.env.*
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Local uploaded documents
+data/uploads/
+
+# Local FAISS indexes
+data/indexes/
+
+# Local/old indexes
+indexes/
+
+# Temporary files
+*.tmp
+*.temp
